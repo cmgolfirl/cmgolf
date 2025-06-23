@@ -201,7 +201,7 @@ nav {
   position: relative;
   height: 94vh;
   max-height: 900px;
-  background-image: url('images/banner.jpg');
+  background-image: url('banner.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
