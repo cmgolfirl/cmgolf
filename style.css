@@ -123,6 +123,20 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .hero h1 {
+    font-size: 1.9rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  .hero-content .logo-image {
+    max-width: 140px;
+  }
+}
+
 
 /* Nav */
 nav {
