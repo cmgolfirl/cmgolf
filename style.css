@@ -88,6 +88,42 @@ body {
   transform: scale(1.05) translateY(-2px);
 }
 
+.logo img.logo-image {
+  height: 50px;
+  width: auto;
+  display: block;
+}
+
+.hero-content .logo-image {
+  max-width: 250px;
+  width: 80%;
+  height: auto;
+  margin: 0 auto 1.5rem auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem;
+    height: auto;
+    background-position: center top;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-content .logo-image {
+    max-width: 180px;
+  }
+}
+
+
 /* Nav */
 nav {
   position: relative;
